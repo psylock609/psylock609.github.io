@@ -1,0 +1,290 @@
+ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.menu a:hover {
+	color: red;
+}
+
+li {
+	text-align: center;
+	padding-right: 5px;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+.main_logo {
+padding-bottom: 10px;
+padding-left: 40px;
+padding-top: 10px;
+}
+
+.main_header {
+	position: fixed;
+	top: 0;
+	background: #007765;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu {
+	padding-right: 40px;
+	color: white;
+}
+
+.ishere {
+	display: flex;
+}
+
+.ishereback {
+	background: url(../img/PiperNet.png) center no-repeat;
+	width: 100%;
+	height: 403px;
+	background-size: cover;
+	
+}
+
+.ishere h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: white;
+	padding-top: 101px;
+}
+
+.section2 {
+	display: flex;
+	background: #EEEEEE;
+	justify-content: center;
+}
+
+.text1 {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.text1 h2 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	padding-top: 10px;
+}
+
+.text1 p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000;
+}
+
+.section3 {
+	display: flex;
+}
+
+.pictext {
+	background: url(../img/PiperNet2.png) center no-repeat;
+	width: 100%;
+	height: 483px;
+	background-size: cover;
+	justify-content: center;
+}
+
+.pictextback {
+	width: 893px;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.pictext p {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+	justify-content: center;
+}
+
+
+.section4 {
+	display: flex;
+	background: #FFFFFF;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.intro h2 {
+	font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+padding-top: 10px;
+}
+
+.introtext {
+	display: flex;
+	width: 1110px;
+	justify-content: center;
+	flex-flow: row nowrap;
+  align-items: center;
+	
+}
+.intro {
+justify-content: center;
+margin: 0 auto;
+}
+.intropictext {
+	display: flex;
+	justify-content: center;
+}
+
+.introtext img {
+	height: 115px;
+	width: 115px;
+	padding-right: 48px;
+}
+
+.introtext p {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+}
+
+.introtext2 {
+	display: flex;
+	justify-content: center;
+	width: 1110px;
+
+	font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+
+.section5 {
+	background: #EEEEEE;
+	display: flex;
+	justify-content: center;
+}
+
+.team img {
+	width: 168px;
+	height: 168px;
+}
+
+.section5 h2 {
+	font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+padding-top: 10px;
+}
+
+.teamup h3 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #007765;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.teamup em {
+	font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.teamup {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.main_team {
+	width: 1219px;
+}
+
+.teamon {
+	width: 350px; /*Устанавливает ширину содержимого элемента*/
+  height: 283px; /*Устанавливает высоту содержимого элемента*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  flex-flow: column wrap;
+  align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+  padding-bottom: 55px;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	background: #333333;
+	justify-content: center;
+}
+
+.podval {
+	width: 540px;
+	display: flex;
+	justify-content: center;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.podval p {
+	font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.team img:hover {
+	transform: scale(1.1);
+}
