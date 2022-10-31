@@ -273,7 +273,7 @@ color: #000000;
 }
 
 footer {
-	display: block;
+	display: flex;
 	width: 100%;
 	background: #333333;
 	justify-content: center;
