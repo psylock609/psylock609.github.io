@@ -274,6 +274,7 @@ footer {
 	background: #333333;
 	justify-content: center;
 margin: 0 auto;
+	align-items: center;
 }
 
 .podval {
